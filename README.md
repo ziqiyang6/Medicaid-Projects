@@ -1,7 +1,7 @@
 # Medicaid-Projects
-
-## Introdutcion:
-Medicaid, one of the major insurance programs in the United States, is a joint federal and state program that helps cover medical costs for some people with limited income and resources. It is similar to another major health insurance program, Medicare. However, Medicare is is federal health insurance for people 65 or older, and some people under 65 with certain disabilities or conditions. The main targeted group of Medicare is the group of old people or kids, but for Medicaid, it focus on the group with low income. In other words, Medicaid and Medicare are different program for different groups of people. However, Medicaid is a program that financed by federal government but administrated by states. Therefore, Every states will have individual medicaid programs. Since state and federal government will pay the bills together, it is essential to have future data for future budgets. This is the significance of this project. By using the exsiting data of Medicaid Enrollment and Expenditure, we will forecasat the Medicaid Enrollment and Expenditure for next decade to the governments, to help them adjust the budget. 
+ 
+## Introdutcion:    
+Medicaid, one of the major insurance programs in the United States, is a joint federal and state program that helps cover medical costs for some people with limited income and resources. It is similar to another major health insurance program, Medicare. However, Medicare is is federal health insurance for people 65 or older, and some people under 65 with certain disabilities or conditions. The main targeted group of Medicare is the group of old people or kids, but for Medicaid, it focus on the group with low income. In other words, Medicaid and Medicare are different program for different groups of people. [Here](https://www.hhs.gov/answers/medicare-and-medicaid/what-is-the-difference-between-medicare-medicaid/index.html) is the comparison of Medicaid and Medicare provided by HHS (U.S. Department of Health and Human Service). However, Medicaid is a program that financed by federal government but administrated by states. Therefore, Every states will have individual medicaid programs. Since state and federal government will pay the bills together, it is essential to have future data for future budgets. This is the significance of this project. By using the exsiting data of Medicaid Enrollment and Expenditure, we will forecasat the Medicaid Enrollment and Expenditure for next decade to the governments, to help them adjust the budget. 
 
 
 
@@ -26,19 +26,19 @@ Version of Python: 3.8.1 or above
 Website: www.python.org
 ### Libraries Installtion:
 Three libraries are required.
-**pandas:**
+#### **pandas:**
 Version of pandas: 1.5.3
 In the terminal,type
 pip3 install pandas
-**matplotlib:**
+#### **matplotlib:**
 Version of maplotlib: 3.7.2
 In the terminal, type
 pip3 install matplotlib
-**prophet:**
+#### **prophet:**
 Version of prophet: 1.1.4
 In the terminal, type
 pip3 install prophet
-**Version Check:**
+#### **Version Check:**
 pip list
  
 
