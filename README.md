@@ -1,5 +1,10 @@
 # Medicaid-Projects
 
+## Introdutcion:
+Medicaid, one of the major insurance programs in the United States, is a joint federal and state program that helps cover medical costs for some people with limited income and resources. It is similar to another major health insurance program, Medicare. However, Medicare is is federal health insurance for people 65 or older, and some people under 65 with certain disabilities or conditions. The main targeted group of Medicare is the group of old people or kids, but for Medicaid, it focus on the group with low income. In other words, Medicaid and Medicare are different program for different groups of people. However, Medicaid is a program that financed by federal government but administrated by states. Therefore, Every states will have individual medicaid programs. Since state and federal government will pay the bills together, it is essential to have future data for future budgets. This is the significance of this project. By using the exsiting data of Medicaid Enrollment and Expenditure, we will forecasat the Medicaid Enrollment and Expenditure for next decade to the governments, to help them adjust the budget. 
+
+
+
 ## Background:
 This project forecasts the future medicaid enrollment and expenditure of America for next decade. Medicaid is a joint federal and state program that helps cover medical costs for some people with limited income and resources. The federal government has general rules that all state Medicaid programs must follow, but each state runs its own program. Each year, Ferderal and state government need to consider the budget for Medicaid. By providing the forecasting, the primary customer, federal and state government, will have a clear idea about the growth of Medicaid Enrollment and Expenditure. 
 
