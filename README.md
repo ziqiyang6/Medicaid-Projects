@@ -39,6 +39,6 @@ Version of prophet: 1.1.4
 In the terminal, type
 pip3 install prophet
 #### **Version Check:**
-pip list
+> pip list
  
 
