@@ -17,9 +17,11 @@ Kaiser Family Foundation is the independent source for health policy research, p
 'Data.Medicaid.gov' is an open data tool of CMS, Centers for Medicare & Medicaid Services, provides health coverage to more than 100 million people through Medicare, Medicaid, the Children’s Health Insurance Program, and the Health Insurance Marketplace.
 
 ### Instadeq
-Instadeq is a website that can convert csv file to the chart under most requirements. Under the easy operation, the file can be filtered, grouped, and form multiple charts to satify different requirements.
-'data.csv' have two different charts: [(1): pie chart to show medicaid enrollment by states.](https://mmiscloud.us/s/@zyang/medicaid-enrollment-pie/) [(2) bar chart to show medicaid enrollment by month from 2017 to 2023.](https://mmiscloud.us/s/@zyang/medicaid-enrollment-layout-by-report-date/
-) 
+[Instadeq](https://instadeq.com/) is a website that can convert csv file to the chart under most requirements. Under the easy operation, the file can be filtered, grouped, and form multiple charts to satify different requirements.
+'data.csv' have two different charts: [(1): pie chart to show medicaid enrollment by states.](https://mmiscloud.us/s/@zyang/medicaid-enrollment-pie/) [(2) bar chart to show medicaid enrollment by month from 2017 to 2023.](https://mmiscloud.us/s/@zyang/medicaid-enrollment-layout-by-report-date/) 
+
+## Prophet:
+Prophet, a python library designed for time series analysis. Prophet is an open-source tool from Facebook used for forecasting time series data which helps businesses understand and possibly predict the market. It is based on a decomposable additive model where non-linear trends fit with seasonality, it also takes into account the effects of holidays. [Here](https://facebook.github.io/prophet/) is the official website of Prophet. Also, the github site about Prophet is [here](https://github.com/facebook/prophet). The official website can provide some basic ideas about Prophet, which is more general, but the github site of Prophet is more professional, and it provides more detailed and directed information, which is more helpful for a learner. The site provides detailed version of Prophet, so the users can choose suitable version. 
 
 ## Installation:
 Inputing the data, editing data, creating and training the model, and ploting the model are the completed processes of forecasting the data. This project is completed by Python. The installation of Python and the specific libraries is required to run the script.
