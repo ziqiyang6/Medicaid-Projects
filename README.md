@@ -1,12 +1,14 @@
 # Medicaid-Projects
- 
+  <a href="https://emrts.us" target="_blank"> ![image](https://github.com/tmwang7324/Medicaid-Analysis/assets/121271571/16e51d9d-e2f7-4e49-b407-1005281d932a) </a>
+
 ## Introdutcion:    
-Medicaid, one of the major insurance programs in the United States, is a joint federal and state program that helps cover medical costs for some people with limited income and resources. It is similar to another major health insurance program, Medicare. However, Medicare is is federal health insurance for people 65 or older, and some people under 65 with certain disabilities or conditions. The main targeted group of Medicare is the group of old people or kids, but for Medicaid, it focus on the group with low income. In other words, Medicaid and Medicare are different program for different groups of people. [Here](https://www.hhs.gov/answers/medicare-and-medicaid/what-is-the-difference-between-medicare-medicaid/index.html) is the comparison of Medicaid and Medicare provided by HHS (U.S. Department of Health and Human Service). However, Medicaid is a program that financed by federal government but administrated by states. Therefore, Every states will have individual medicaid programs. Since state and federal government will pay the bills together, it is essential to have future data for future budgets. This is the significance of this project. By using the exsiting data of Medicaid Enrollment and Expenditure, we will forecasat the Medicaid Enrollment and Expenditure for next decade to the governments, to help them adjust the budget. 
+Medicaid, one of the major insurance programs in the United States, is a joint federal and state program that helps cover medical costs for some people with limited income and resources. It is similar to another major health insurance program, Medicare. However, Medicare is federal health insurance for people 65 or older, and some people under 65 with certain disabilities or conditions. The main target of Medicare is the group of old people or kids, but for Medicaid, it focus on the group with low income. In other words, Medicaid and Medicare are different program for different groups of people. [Here](https://www.hhs.gov/answers/medicare-and-medicaid/what-is-the-difference-between-medicare-medicaid/index.html) is the comparison of Medicaid and Medicare provided by HHS (U.S. Department of Health and Human Service). However, Medicaid is a program that financed by federal government but administrated by states. Therefore, Every states will have individual medicaid programs. Since state and federal government will pay the bills together, it is essential to have future data for future budgets. This is the significance of this project. By using the exsiting data of Medicaid Enrollment and Expenditure, we will forecasat the Medicaid Enrollment and Expenditure for next decade to the governments, to help them adjust the budget. This process of forecasting, is also called "Time Series Analysis". Terminologically, time series analysis is a specific way of analyzing a sequence of data points collected over an interval of time. The essence of this project is to make time series analysis over Medicaid. 
 
 
 
 ## Background:
-This project forecasts the future medicaid enrollment and expenditure of America for next decade. Medicaid is a joint federal and state program that helps cover medical costs for some people with limited income and resources. The federal government has general rules that all state Medicaid programs must follow, but each state runs its own program. Each year, Ferderal and state government need to consider the budget for Medicaid. By providing the forecasting, the primary customer, federal and state government, will have a clear idea about the growth of Medicaid Enrollment and Expenditure. 
+This project is assigned by [EMRTS](https://emrts.us/) (EMR Techincal Solution), a company provides professional analysis about Medicaid. The original full name of this project is "Reflections on Medicaid Enrollment for the Next Decade", which is one of the blogs from the website. However, in providing the newest analysis with newest data, this project should be done continuously. [Here](https://emrts.us/2021/07/31/reflections-on-medicaid-enrollment-for-the-next-decade/) is the last blog page. For this project, we added more information and data than the one from the blog, which the expenditure of Medicaid would be covered as well. More than that, the form of graph changed to new tool, Instadeq, which will be introduced later. 
+
 
 ## Source:
 ### Source Background:
@@ -29,15 +31,21 @@ Three libraries are required.
 #### **pandas:**
 Version of pandas: 1.5.3
 In the terminal,type
+```
 pip3 install pandas
+```
 #### **matplotlib:**
 Version of maplotlib: 3.7.2
 In the terminal, type
+```
 pip3 install matplotlib
+```
 #### **prophet:**
 Version of prophet: 1.1.4
 In the terminal, type
+```
 pip3 install prophet
+```
 #### **Version Check:**
 ```
 pip list
