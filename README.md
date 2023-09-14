@@ -9,16 +9,21 @@ This project is assigned by [EMRTS](https://emrts.us/) (EMR Techincal Solution),
 
 ## Source:
 ### Source Background:
+#### Enrollment:
 Based on the sources from [Kaiser Family Foundation (KFF)](https://www.kff.org/other/state-indicator/medicaid-and-chip-monthly-enrollment/?currentTimeframe=0&sortModel=%7B%22colId%22:%22Location%22,%22sort%22:%22asc%22%7D), and ['Data.Medicaid.gov'](https://data.medicaid.gov/dataset/6165f45b-ca93-5bb5-9d06-db29c692a360/data), the csv file 'data.csv' contains the number of Medicaid Enrollment from 2017 to 2023. In this file, the number of Medicaid Enrollment is counted monthly. 
 Kaiser Family Foundation is the independent source for health policy research, polling, and journalism. It provides the data for most health systems in America objectively. 
 'Data.Medicaid.gov' is an open data tool of CMS, Centers for Medicare & Medicaid Services, provides health coverage to more than 100 million people through Medicare, Medicaid, the Children’s Health Insurance Program, and the Health Insurance Marketplace.
+#### Expenditure:
+The main source for Medicaid Expenditure is the [U.S. Department of Health and Human Service](https://oig.hhs.gov/fraud/medicaid-fraud-control-units-mfcu/). Under the section of "Expenditure&Statistics", the charts of specific expenditures of medicaid from 2010 to 2022 are listed. The data is from the ferderal government of the U.S., which is reliable. This project will only use the expenditures of total medicaid. The pie chart of medicaid expenditure that will be mentioned later uses the data of year 2022, listed in the "FY 2022 Chart". The file 'Medicaid_Expenditure_2010-2022.csv' is the csv file containing the total expenditures of medicaid from 2010 to 2022. 
 
 ### Instadeq
 [Instadeq](https://instadeq.com/) is a website that can convert csv file to the chart under most requirements. Under the easy operation, the file can be filtered, grouped, and form multiple charts to satify different requirements.
-'data.csv' have two different charts: [(1): pie chart to show medicaid enrollment by states.](https://mmiscloud.us/s/@zyang/medicaid-enrollment-pie/) [(2) bar chart to show medicaid enrollment by month from 2017 to 2023.](https://mmiscloud.us/s/@zyang/medicaid-enrollment-layout-by-report-date/) 
+'data.csv' have two different charts: [(1): pie chart to show medicaid enrollment by states.](https://mmiscloud.us/s/@zyang/medicaid-enrollment-pie/) [(2) bar chart to show medicaid enrollment by month from 2017 to 2023.](https://mmiscloud.us/s/@zyang/medicaid-enrollment-layout-by-report-date/).   
+'Medicaid_Expenditure_2010-2022.csv' also has two graphs from Instadeq:[(1): pie chart to show medicaid expenditure by states in 2022](https://mmiscloud.us/s/@zyang/medicaid-expenditure-pie/) [(2) bar chart to show medicaid expenditure by month from 2010 to 2022](https://mmiscloud.us/s/@zyang/medicaid-expenditure-bar/)
 
 ## Prophet:
 Prophet, a python library designed for time series analysis. Prophet is an open-source tool from Facebook used for forecasting time series data which helps businesses understand and possibly predict the market. It is based on a decomposable additive model where non-linear trends fit with seasonality, it also takes into account the effects of holidays. [Here](https://facebook.github.io/prophet/) is the official website of Prophet. Also, the github site about Prophet is [here](https://github.com/facebook/prophet). The official website can provide some basic ideas about Prophet, which is more general, but the github site of Prophet is more professional, and it provides more detailed and directed information, which is more helpful for a learner. The site provides detailed version of Prophet, so the users can choose suitable version. 
+Prophet is the primary tool we use for forecasting, in which both forecasting will apply Prophet. 
 
 ## Installation:
 Inputing the data, editing data, creating and training the model, and ploting the model are the completed processes of forecasting the data. This project is completed by Python. The installation of Python and the specific libraries is required to run the script.
