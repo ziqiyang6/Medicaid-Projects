@@ -9,10 +9,11 @@ pd.set_option('display.max_rows',None)
 pd.set_option('display.max_columns',None)
 
 #Input the data. Check your own Path!!!!!
-df = pd.read_csv('E:/一些文件/data.csv', encoding = 'unicode_escape')   #Note: data.csv is the csv file of Medicaid Enrollment
+df = pd.read_csv('E:/some_files/data.csv', encoding = 'unicode_escape')   #Note: data.csv is the csv file of Medicaid Enrollment
 
 # Limit the rows that satisfy the requirements.
 df = df[df['final_report'] == 'Y']   # Need rows that are the final report only
+df = df[df['report_date'] != '09/01/2013']    # Remove the date 09/01/2013 since it was the only date before 06/01/2017
 df.dropna(subset=['total_medicaid_enrollment'], inplace=True)   # removes the rows that are empty
 
 # Columns editing
