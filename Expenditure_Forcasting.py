@@ -38,6 +38,9 @@ df.set_index('Year', inplace=True)
 df_monthly = df.resample('M').asfreq()  # Convert to monthly data
 df_monthly.interpolate(method='linear', inplace=True)  # Perform linear interpolation
 
+# Store the monthly data in a csv file, named 'Expenditure_Monthly_data_2010-2022.csv'
+df_monthly.reset_index().to_csv('Expenditure_Monthly_data_2010-2022.csv', index=False)
+
 from prophet import Prophet
 import matplotlib.pyplot as plt
 
