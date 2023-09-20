@@ -1,3 +1,26 @@
+'''**********************************************************************************
+                                                                                    *
+Project Name: Expenditure_Forcasting_Monthly                                        *
+                                                                                    *
+Programming Language: Python 3.8                                                    *
+                                                                                    *
+Libraries: Pandas 2.1.0    Prophet 1.1.4     Matplotlib 3.7.2                       *
+                                                                                    *
+Creater Name: Ziqi Yang                                                             *
+                                                                                    *
+Published Date: 09/19/2023                                                          *
+                                                                                    *
+Version: 1.0                                                                        *
+                                                                                    *
+                                                                                    *
+                                                                                    *
+                                                                                    *
+                                                                                    *
+                                                                                    *
+**********************************************************************************'''
+
+####    Scripts start below
+
 import pandas as pd
 
 # Creates a new DataFrame to contain the data from 2010 to 2022
