@@ -1,3 +1,28 @@
+'''**********************************************************************************
+                                                                                    *
+Project Name: Forcasting_for_Enrollment                                             *
+                                                                                    *
+Programming Language: Python 3.8                                                    *
+                                                                                    *
+Libraries: Pandas 2.1.0    Prophet 1.1.4     Matplotlib 3.7.2                       *
+                                                                                    *
+Creater Name: Ziqi Yang                                                             *
+                                                                                    *
+Published Date: 09/19/2023                                                          *
+                                                                                    *
+Version: 1.0                                                                        *
+                                                                                    *
+NOTICE: For Line 37 about inputting the csv file, please use the correct path,      *
+or the error will appear. According to different computer systems, the              *
+encoding need to be changed, or deleted.                                            *
+                                                                                    *
+                                                                                    *
+                                                                                    *
+                                                                                    *
+**********************************************************************************'''
+
+####    Scripts start below
+
 #Libraries: Pandas, Prophet, and Matplot
 import pandas as pd
 from prophet import Prophet
