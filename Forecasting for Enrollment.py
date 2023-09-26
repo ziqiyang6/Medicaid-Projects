@@ -11,13 +11,13 @@ Creater Name: Ziqi Yang                                                         
 Published Date: 09/19/2023                                                          *
                                                                                     *
 Version: 1.0                                                                        *
-                                                                                    *
 NOTICE: For Line 37 about inputting the csv file, please use the correct path,      *
 or the error will appear. According to different computer systems, the              *
 encoding need to be changed, or deleted.                                            *
                                                                                     *
-                                                                                    *
-                                                                                    *
+Version: 1.1                                                                        *
+Line 60 to 62 were added to store the forecasted data in a csv file for             *
+visualization. The visualization will be shown in Instadeq.                         *
                                                                                     *
 **********************************************************************************'''
 
@@ -56,6 +56,10 @@ future = model.make_future_dataframe(periods = 365 *10)
 
 # Forecasting
 forecast = model.predict(future)
+
+# Store the forecasted data into a new csv file named 'forecast_data_Medicaid_Enrollment'
+forecast_data = forecast.rename(columns = {'ds':'report_date'})
+forecast_data.reset_index().to_csv('E:/some_files/forecast_data_Medicaid_Enrollment.csv', index=False)
 
 # The graph of predicted result
 fig1 = model.plot(forecast)
