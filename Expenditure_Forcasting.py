@@ -12,7 +12,9 @@ Published Date: 09/19/2023                                                      
                                                                                     *
 Version: 1.0                                                                        *
                                                                                     *
-                                                                                    *
+Version: 1.1                                                                        *
+Line 74 to 76 were added to store the forecasted data in a csv file for             *
+visualization. The visualization will be shown in Instadeq.                         *
                                                                                     *
                                                                                     *
                                                                                     *
@@ -64,6 +66,10 @@ future = model.make_future_dataframe(periods = 365 *10)
 
 # Forecasting
 forecast = model.predict(future)
+
+# Store the forecasted data into a new csv file named 'forecast_data_Medicaid_Expenditure.csv'
+forecast_data= forecast.rename(columns = {'ds':'date'})
+forecast_data.reset_index().to_csv('E:/some_files/forecast_data_Medicaid_Expenditure.csv', index=False)
 
 # The graph of predicted result
 fig1 = model.plot(forecast)
