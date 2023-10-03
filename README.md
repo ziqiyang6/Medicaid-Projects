@@ -35,28 +35,33 @@ Inputing the data, editing data, creating and training the model, and ploting th
 ### Python Installation:
 Version of Python: 3.8.1 or above
 Website: www.python.org
-### Libraries Installtion:
+#### Python Libraries Installtion:
 Three libraries are required.
-#### **pandas:**
+##### **pandas:**
 Version of pandas: 1.5.3
 In the terminal,type
 ```
 pip3 install pandas
 ```
-#### **matplotlib:**
+##### **matplotlib:**
 Version of maplotlib: 3.7.2
 In the terminal, type
 ```
 pip3 install matplotlib
 ```
-#### **prophet:**
+##### **prophet:**
 Version of prophet: 1.1.4
 In the terminal, type
 ```
 pip3 install prophet
 ```
-#### **Version Check:**
+##### **Version Check:**
 ```
 pip list
-``` 
+```
+### R Installation:
+Version of R: 4.3.1 or above
+Website: R-project.org
+
+
 
