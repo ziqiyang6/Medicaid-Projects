@@ -26,31 +26,32 @@ The main source for Medicaid Expenditure is the [U.S. Department of Health and H
 As two csv files containing the forecasted data, there are two Instadeq graphs of these two forecasting: [(1): Bar chart of **medicaid enrollment yearly** forecasting from 2023 to 2033.](https://mmiscloud.us/s/@zyang/layout-of-bar-graph-of-forcasted-medicaid-enrollment/) [(2): Bar chart of **medicaid expenditure yearly** forecasting from 2023 to 2032.](https://mmiscloud.us/s/@zyang/medicaid-forecast-expenditure-from-2023-to-2032/)
 
 ## Prophet:
-Prophet, a python library designed for time series analysis. Prophet is an open-source tool from Facebook used for forecasting time series data which helps businesses understand and possibly predict the market. It is based on a decomposable additive model where non-linear trends fit with seasonality, it also takes into account the effects of holidays. [Here](https://facebook.github.io/prophet/) is the official website of Prophet. Also, the github site about Prophet is [here](https://github.com/facebook/prophet). The official website can provide some basic ideas about Prophet, which is more general, but the github site of Prophet is more professional, and it provides more detailed and directed information, which is more helpful for a learner. The site provides detailed version of Prophet, so the users can choose suitable version. 
+Prophet, a library designed for time series analysis for both **Python** and **R** language. Prophet is an open-source tool from Facebook used for forecasting time series data which helps businesses understand and possibly predict the market. It is based on a decomposable additive model where non-linear trends fit with seasonality, it also takes into account the effects of holidays. [Here](https://facebook.github.io/prophet/) is the official website of Prophet. Also, the github site about Prophet is [here](https://github.com/facebook/prophet). The official website can provide some basic ideas about Prophet, which is more general, but the github site of Prophet is more professional, and it provides more detailed and directed information, which is more helpful for a learner. The site provides detailed version of Prophet, so the users can choose suitable version. 
 
 Prophet is the primary tool we use for forecasting, in which both forecasting will apply Prophet. 
 
 ## Installation:
-Inputing the data, editing data, creating and training the model, and ploting the model are the completed processes of forecasting the data. This project is completed by Python. The installation of Python and the specific libraries is required to run the script.
+Inputing the data, editing data, creating and training the model, and ploting the model are the completed processes of forecasting the data. This project is completed by Python and R. The installation of Python and R ,and the specific libraries are required to run the script.
 ### Python Installation:
-Version of Python: 3.8.1 or above
-Website: www.python.org
+**Version of Python:** 3.8.1 or above
+
+**Website:** www.python.org
 #### Python Libraries Installtion:
 Three libraries are required.
 ##### **pandas:**
-Version of pandas: 1.5.3
+**Version of pandas:** 1.5.3
 In the terminal,type
 ```
 pip3 install pandas
 ```
 ##### **matplotlib:**
-Version of maplotlib: 3.7.2
+**Version of maplotlib:** 3.7.2
 In the terminal, type
 ```
 pip3 install matplotlib
 ```
 ##### **prophet:**
-Version of prophet: 1.1.4
+**Version of prophet:** 1.1.4
 In the terminal, type
 ```
 pip3 install prophet
@@ -59,9 +60,42 @@ pip3 install prophet
 ```
 pip list
 ```
+Type this command in terminal
 ### R Installation:
-Version of R: 4.3.1 or above
-Website: R-project.org
+**Version of R:** 4.3.1 or above
+
+**Website:** www.R-project.org
+#### R Packages Installtion:
+To install the packages of R, **you will need to open the console of R**.
+##### **prophet:**
+**Version of prophet:** 1.0.0
+```
+install.packages("prophet")
+```
+##### **tidyverse:**
+**Version of tidyverse:** 2.0.0
+```
+install.packages("tidyverse")
+```
+##### **lubridate:**
+**Version of lubridate:** 1.9.3
+```
+install.packages("lubridate")
+```
+##### **Version Check in R:**
+In R console, type
+```
+packageVersion("packagename")
+```
+'packagename' is the name of the package
+
+## Usage:
+To use python and R file in the system, there are different ways for different systems.Open the PowerShell of the system. 
+### Python:
+Type 
+``` python Forecasting_for_Enrollment_2.py ``` 
+``` python Expenditure_Forecasting_Monthly.py ```
+### R:
 
 
 
