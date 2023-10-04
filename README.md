@@ -90,12 +90,28 @@ packageVersion("packagename")
 'packagename' is the name of the package
 
 ## Usage:
-To use python and R file in the system, there are different ways for different systems.Open the PowerShell of the system. 
+To use python and R file in the system, open the PowerShell of the system. 
 ### Python:
-Type 
-``` python Forecasting_for_Enrollment_2.py ``` 
-``` python Expenditure_Forecasting_Monthly.py ```
+For Medicaid Enrollment, Type 
+``` 
+python 'Forecasting_for_Enrollment_2.py'
+``` 
+For Medicaid Expenditure, Type
+```
+python 'Expenditure_Forecasting_Monthly.py'
+```
 ### R:
+For Medicaid Enrollment, Type
+```
+Rscript "Medicaid_Enrollment_Prophet.R"
+```
+For Medicaid Expenditure, Type
+```
+Rscript "Medicaid_Expenditure_Prophet.R"
+```
+
+
+
 
 
 
