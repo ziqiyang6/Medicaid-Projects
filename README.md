@@ -91,14 +91,23 @@ packageVersion("packagename")
 
 ## Usage:
 To use python and R file in the system, open the PowerShell of the system. 
+
+Before running the scripts, please type command:
+```
+pip3 install --upgrade pip
+```
+
+```
+pip3 freeze
+```
 ### Python:
 For Medicaid Enrollment, Type 
 ``` 
-python 'Forecasting_for_Enrollment_2.py'
+python 'Forecasting_for_Enrollment.py'
 ``` 
 For Medicaid Expenditure, Type
 ```
-python 'Expenditure_Forecasting_Monthly.py'
+python 'Expenditure_Forecasting.py'
 ```
 ### R:
 For Medicaid Enrollment, Type
