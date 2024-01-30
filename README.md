@@ -106,20 +106,20 @@ pip3 freeze
 ### Python:
 For Medicaid Enrollment, Type 
 ``` 
-python 'Forecasting_for_Enrollment.py'
+python3 Forecasting_for_Enrollment.py
 ``` 
 For Medicaid Expenditure, Type
 ```
-python 'Expenditure_Forecasting.py'
+python3 Expenditure_Forecasting.py
 ```
 ### R:
 For Medicaid Enrollment, Type
 ```
-Rscript "Medicaid_Enrollment_Prophet.R"
+Rscript Medicaid_Enrollment_Prophet.R
 ```
 For Medicaid Expenditure, Type
 ```
-Rscript "Medicaid_Expenditure_Prophet.R"
+Rscript Medicaid_Expenditure_Prophet.R
 ```
 
 
