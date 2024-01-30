@@ -69,21 +69,27 @@ Type this command in terminal
 
 **Website:** www.R-project.org
 #### R Packages Installtion:
-To install the packages of R, **you will need to open the console of R**.
+To install the packages of R, **you will need to create a directory**.
+Type 
+```
+mkdir -p ~/R/libs
+```
+Then for each package, type or copy following command.
+
 ##### **prophet:**
 **Version of prophet:** 1.0.0
 ```
-install.packages("prophet")
+R -e "install.packages('prophet', repos='http://cran.rstudio.com/', lib='~/R/libs')"
 ```
 ##### **tidyverse:**
 **Version of tidyverse:** 2.0.0
 ```
-install.packages("tidyverse")
+R -e "install.packages('tidyverse', repos='http://cran.rstudio.com/', lib='~/R/libs')"
 ```
 ##### **lubridate:**
 **Version of lubridate:** 1.9.3
 ```
-install.packages("lubridate")
+R -e "install.packages('lubridate', repos='http://cran.rstudio.com/', lib='~/R/libs')"
 ```
 ##### **Version Check in R:**
 In R console, type
