@@ -59,7 +59,7 @@ forecast = model.predict(future)
 
 # Store the forecasted data into a new csv file named 'forecast_data_Medicaid_Enrollment'
 forecast_data = forecast.rename(columns = {'ds':'report_date'})
-forecast_data.reset_index().to_csv('E:/some_files/forecast_data_Medicaid_Enrollment.csv', index=False)
+forecast_data.reset_index().to_csv('../Medicaid-Projects/forecast_data_Medicaid_Enrollment.csv', index=False)
 
 # The graph of predicted result
 fig1 = model.plot(forecast)
