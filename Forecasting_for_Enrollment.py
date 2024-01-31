@@ -34,7 +34,7 @@ pd.set_option('display.max_rows',None)
 pd.set_option('display.max_columns',None)
 
 #Input the data. Check your own Path!!!!!
-df = pd.read_csv('E:/some_files/data.csv', encoding = 'unicode_escape')   #Note: data.csv is the csv file of Medicaid Enrollment
+df = pd.read_csv('../Medicaid-Projects/data.csv', encoding = 'unicode_escape')   #Note: data.csv is the csv file of Medicaid Enrollment
 
 # Limit the rows that satisfy the requirements.
 df = df[df['final_report'] == 'Y']   # Need rows that are the final report only
